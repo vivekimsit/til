@@ -3,7 +3,7 @@ Lets learn something everyday.
 
 # Javascript
 
-Maps
+Map
 
 ```
  var m = {};
@@ -15,3 +15,9 @@ Maps
  m[x]?
  m[y]?
 ```
+
+WeakMap
+
+1. WeakMap take only object as keys.
+2. They don't have `size` or `clear` method.
+3. They don't have iterartor over `keys`, `values` or `entries`.
