@@ -21,3 +21,11 @@ WeakMap
 1. WeakMap take only object as keys.
 2. They don't have `size` or `clear` method.
 3. They don't have iterartor over `keys`, `values` or `entries`.
+
+Array
+
+Initialize an array of given length with default values:
+
+```
+Array(3).fill(null); // [null, null, null]
+```
