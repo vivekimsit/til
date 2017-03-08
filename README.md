@@ -32,4 +32,4 @@ Array(3).fill(null); // [null, null, null]
 
 # React
 
-[HOC is than mixins](https://facebook.github.io/react/docs/higher-order-components.html)
+[HOC is better than mixins](https://facebook.github.io/react/docs/higher-order-components.html)
