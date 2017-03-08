@@ -29,3 +29,7 @@ Initialize an array of given length with default values:
 ```
 Array(3).fill(null); // [null, null, null]
 ```
+
+# React
+
+[HOC is than mixins](https://facebook.github.io/react/docs/higher-order-components.html)
