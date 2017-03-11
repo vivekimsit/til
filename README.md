@@ -36,4 +36,4 @@ Array(3).fill(null); // [null, null, null]
 
 `e` is synthectic event for cross browser compatibility.
 
-(Reducer Composition)[www.example.com]
+[Reducer Composition (Array)](www.example.com)
