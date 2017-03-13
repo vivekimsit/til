@@ -45,6 +45,13 @@ class Foo {}
 
 ```
 
+### A class body can only contain methods, but not data properties.
+
+
+Prototypes having data properties is generally considered an anti-pattern, so this just enforces a best practice.
+
+`constructor, static methods, prototype methods`
+
 # React
 
 [HOC is better than mixins](https://facebook.github.io/react/docs/higher-order-components.html)
