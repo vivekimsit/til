@@ -30,6 +30,21 @@ Initialize an array of given length with default values:
 Array(3).fill(null); // [null, null, null]
 ```
 
+Classes
+
+Unlike function declarations, class declarations are not hoisted.
+
+```js
+
+// A class only exists after execution reached its definition and it was evaluated.
+// Accessing it beforehand leads to a ReferenceError
+
+new Foo();
+
+class Foo {}
+
+```
+
 # React
 
 [HOC is better than mixins](https://facebook.github.io/react/docs/higher-order-components.html)
