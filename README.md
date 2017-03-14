@@ -1,7 +1,20 @@
 # til
 Lets learn something everyday.
 
-# Javascript
+# Core
+
+The comma operator in JavaScript is interesting.
+It takes two arguments, evaluates them both, and itself evaluates to the value of the right-hand argument.
+
+```js
+(1, 2)
+  //=> 2
+
+(1 + 1, 2 + 2)
+  //=> 4
+```
+
+# ES6
 
 #### Map
 
@@ -58,6 +71,7 @@ spread elements 'expands' an array into its elements, and rest elements collects
 multiple elements and 'condenses' into a single element.
 
 [source (mdn)](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+
 
 # React
 
