@@ -3,7 +3,7 @@ Lets learn something everyday.
 
 # Javascript
 
-Map
+#### Map
 
 ```
  var m = {};
@@ -16,13 +16,13 @@ Map
  m[y]?
 ```
 
-WeakMap
+#### WeakMap
 
 1. WeakMap take only object as keys.
 2. They don't have `size` or `clear` method.
 3. They don't have iterartor over `keys`, `values` or `entries`.
 
-Array
+#### Array
 
 Initialize an array of given length with default values:
 
@@ -30,7 +30,7 @@ Initialize an array of given length with default values:
 Array(3).fill(null); // [null, null, null]
 ```
 
-Classes
+#### Classes
 
 Unlike function declarations, class declarations are not hoisted.
 
@@ -45,12 +45,19 @@ class Foo {}
 
 ```
 
-### A class body can only contain methods, but not data properties.
+#### A class body can only contain methods, but not data properties.
 
 
 Prototypes having data properties is generally considered an anti-pattern, so this just enforces a best practice.
 
 `constructor, static methods, prototype methods`
+
+#### Rest vs Spread
+
+spread elements 'expands' an array into its elements, and rest elements collects
+multiple elements and 'condenses' into a single element.
+
+[source (mdn)](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
 # React
 
