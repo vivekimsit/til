@@ -72,6 +72,9 @@ multiple elements and 'condenses' into a single element.
 
 [source (mdn)](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
+#### Symbols
+
+`Symbol() !=== Symbol()`
 
 # React
 
