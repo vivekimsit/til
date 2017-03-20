@@ -14,6 +14,10 @@ It takes two arguments, evaluates them both, and itself evaluates to the value o
   //=> 4
 ```
 
+Scheduling Microtasks
+
+[SO](http://stackoverflow.com/q/36870467)
+
 # ES6
 
 #### Map
