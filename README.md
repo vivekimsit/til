@@ -95,3 +95,9 @@ https://developers.google.com/web/fundamentals/getting-started/primers/async-fun
 `e` is synthectic event for cross browser compatibility.
 
 [Reducer Composition (Array)](www.example.com)
+
+# Algorithms
+
+#### Array vs Map for lookup
+
+HashMap uses an array underneath so it can never be faster than using an array correctly.
