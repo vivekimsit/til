@@ -84,6 +84,10 @@ multiple elements and 'condenses' into a single element.
 
 `Symbol() !=== Symbol()`
 
+#### async, await
+
+https://developers.google.com/web/fundamentals/getting-started/primers/async-functions
+
 # React
 
 [HOC is better than mixins](https://facebook.github.io/react/docs/higher-order-components.html)
