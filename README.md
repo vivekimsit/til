@@ -2,7 +2,7 @@
 
 > Lets learn something everyday.
 
-# ES6
+## ES6
 
 #### Map
 
@@ -59,3 +59,9 @@ spread elements 'expands' an array into its elements, and rest elements collects
 multiple elements and 'condenses' into a single element.
 
 [source (mdn)](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+
+#### Nodejs compatibility
+
+`node --v8-options | grep "in progress"`
+
+[More here](https://nodejs.org/en/docs/es6/)
