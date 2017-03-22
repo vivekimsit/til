@@ -1,27 +1,6 @@
 # til
 Lets learn something everyday.
 
-# Core
-
-The comma operator in JavaScript is interesting.
-It takes two arguments, evaluates them both, and itself evaluates to the value of the right-hand argument.
-
-```js
-(1, 2)
-  //=> 2
-
-(1 + 1, 2 + 2)
-  //=> 4
-```
-
-#### Scheduling Microtasks
-
-[SO](http://stackoverflow.com/q/36870467)
-
-#### JS is stringly typed language
-
-`[1, true] == '1,true' === true`
-
 # ES6
 
 #### Map
@@ -79,25 +58,3 @@ spread elements 'expands' an array into its elements, and rest elements collects
 multiple elements and 'condenses' into a single element.
 
 [source (mdn)](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
-
-#### Symbols
-
-`Symbol() !=== Symbol()`
-
-#### async, await
-
-https://developers.google.com/web/fundamentals/getting-started/primers/async-functions
-
-# React
-
-[HOC is better than mixins](https://facebook.github.io/react/docs/higher-order-components.html)
-
-`e` is synthectic event for cross browser compatibility.
-
-[Reducer Composition (Array)](www.example.com)
-
-# Algorithms
-
-#### Array vs Map for lookup
-
-HashMap uses an array underneath so it can never be faster than using an array correctly.
