@@ -1,5 +1,6 @@
-# til
-Lets learn something everyday.
+# TIL
+
+> Lets learn something everyday.
 
 # ES6
 
