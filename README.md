@@ -65,3 +65,8 @@ multiple elements and 'condenses' into a single element.
 `node --v8-options | grep "in progress"`
 
 [More here](https://nodejs.org/en/docs/es6/)
+
+
+## Web performance
+
+[Faster Font Loading with Font Events](https://jonsuh.com/blog/font-loading-with-font-events/)
