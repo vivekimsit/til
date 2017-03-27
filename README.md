@@ -70,3 +70,13 @@ multiple elements and 'condenses' into a single element.
 ## Web performance
 
 [Faster Font Loading with Font Events](https://jonsuh.com/blog/font-loading-with-font-events/)
+
+## Git
+
+### Merge
+
+#### Undo Merge
+
+`git merge --abort`
+
+[SO](http://stackoverflow.com/a/18693059)
