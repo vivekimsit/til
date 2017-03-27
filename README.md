@@ -86,3 +86,9 @@ multiple elements and 'condenses' into a single element.
 #### Passing ENV variabels to node
 
 `USER_ID=239482 USER_KEY=foobar node app.js`
+
+## VIM
+
+#### Configuring space and indent setting in VIM
+
+[SO Link](http://stackoverflow.com/a/1878983)
