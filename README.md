@@ -80,3 +80,9 @@ multiple elements and 'condenses' into a single element.
 `git merge --abort`
 
 [SO](http://stackoverflow.com/a/18693059)
+
+## Node
+
+#### Passing ENV variabels to node
+
+`USER_ID=239482 USER_KEY=foobar node app.js`
