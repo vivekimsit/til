@@ -60,6 +60,27 @@ multiple elements and 'condenses' into a single element.
 
 [source (mdn)](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
+#### Instance methods and properties
+
+```js
+
+ class Bork {
+    //Property initializer syntax
+    instanceProperty = "bork";
+    boundFunction = () => {
+      return this.instanceProperty;
+    }
+
+    //Static class properties
+    static staticProperty = "babelIsCool";
+    static staticFunction = function() {
+      return Bork.staticProperty;
+    }
+  }
+```
+[Babel plugin](https://babeljs.io/docs/plugins/transform-class-properties/)
+
+
 #### Nodejs compatibility
 
 `node --v8-options | grep "in progress"`
