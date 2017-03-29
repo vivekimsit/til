@@ -2,8 +2,6 @@
 
 > Lets learn something everyday.
 
-## ES6
-
 #### Map
 
 ```
@@ -81,35 +79,6 @@ multiple elements and 'condenses' into a single element.
 [Babel plugin](https://babeljs.io/docs/plugins/transform-class-properties/)
 
 
-#### Nodejs compatibility
-
-`node --v8-options | grep "in progress"`
-
-[More here](https://nodejs.org/en/docs/es6/)
-
-
 ## Web performance
 
 [Faster Font Loading with Font Events](https://jonsuh.com/blog/font-loading-with-font-events/)
-
-## Git
-
-### Merge
-
-#### Undo Merge
-
-`git merge --abort`
-
-[SO](http://stackoverflow.com/a/18693059)
-
-## Node
-
-#### Passing ENV variabels to node
-
-`USER_ID=239482 USER_KEY=foobar node app.js`
-
-## VIM
-
-#### Configuring space and indent setting in VIM
-
-[SO Link](http://stackoverflow.com/a/1878983)
