@@ -91,3 +91,11 @@ function foo(opts) {
 ## Web performance
 
 [Faster Font Loading with Font Events](https://jonsuh.com/blog/font-loading-with-font-events/)
+
+
+### Reducers
+
+Using combineReducers does "call all reducers", or at least all of the slice reducers it is wrapping.
+
+[Link](https://github.com/markerikson/redux/blob/structuring-reducers-page/docs/recipes/reducers/04-UsingCombineReducers.md)
+
