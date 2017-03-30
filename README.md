@@ -78,6 +78,15 @@ multiple elements and 'condenses' into a single element.
 ```
 [Babel plugin](https://babeljs.io/docs/plugins/transform-class-properties/)
 
+### Function default values
+
+```js
+function foo(opts) {
+  opts = Object.assign({
+    pow: ''
+  }, opts);
+}
+```
 
 ## Web performance
 
