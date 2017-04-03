@@ -99,3 +99,12 @@ Using combineReducers does "call all reducers", or at least all of the slice red
 
 [Link](https://github.com/markerikson/redux/blob/structuring-reducers-page/docs/recipes/reducers/04-UsingCombineReducers.md)
 
+### VIM
+
+#### Convert tabs to spaces in a file
+
+Select visually the area to apply the changes then,
+
+`:retab`
+
+``
