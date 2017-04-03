@@ -106,5 +106,3 @@ Using combineReducers does "call all reducers", or at least all of the slice red
 Select visually the area to apply the changes then,
 
 `:retab`
-
-``
