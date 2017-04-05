@@ -106,3 +106,10 @@ Using combineReducers does "call all reducers", or at least all of the slice red
 Select visually the area to apply the changes then,
 
 `:retab`
+
+### Service workers
+
+A service worker is run in a worker context: it therefore has *no DOM access*,
+and *runs on a different thread* to the main JavaScript that powers your app,
+so it is not blocking. It is designed to be *fully async*; as a consequence,
+APIs such as synchronous XHR and localStorage can't be used inside a service worker.
