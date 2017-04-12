@@ -52,7 +52,14 @@ var a = null;
 (!a && typeof a === "object"); // true
 ```
 
-null is the only primitive value that is "falsy" but that also returns "object" from the typeof check.
+null is the only primitive value that is "falsy" but that also returns "object"
+from the typeof check.
+
+#### Reference error
+
+Unlike referencing undeclared variables, there is no ReferenceError thrown if
+you try to access an object property (even on the global window object) that
+doesn't exist.
 
 #### A class body can only contain methods, but not data properties.
 
