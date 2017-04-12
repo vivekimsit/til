@@ -44,6 +44,16 @@ class Foo {}
 
 ```
 
+#### Null
+
+```js
+var a = null;
+
+(!a && typeof a === "object"); // true
+```
+
+null is the only primitive value that is "falsy" but that also returns "object" from the typeof check.
+
 #### A class body can only contain methods, but not data properties.
 
 
