@@ -130,3 +130,64 @@ A service worker is run in a worker context: it therefore has *no DOM access*,
 and *runs on a different thread* to the main JavaScript that powers your app,
 so it is not blocking. It is designed to be *fully async*; as a consequence,
 APIs such as synchronous XHR and localStorage can't be used inside a service worker.
+
+
+const data = {
+  "DataSet": {
+    "Article": [
+      {
+        "Title": 'A',
+        "AuthorList": {
+          "Author": [{
+            "FirstName": "Foo",
+            "LastName": "Bar",
+            "Initials": "F"
+          }, {
+            "FirstName": "Zoo",
+            "LastName": "Bar",
+            "Initials": "Z"
+          }] // Author
+        } // AuthorList
+      } // Article
+    ] // Articles
+  } // DataSet
+};
+
+const getArticles = (data) =>
+  data["DataSet"]["Article"]
+    .map((a) => a["Title"]);
+
+const getAuthors = (data) =>
+  data["DataSet"]["Article"]
+    .reduce((accum, article) => {     
+      return [...accum, ...article["AuthorList"]["Author"].map((author) => author["FirstName"])];
+    }, []);
+
+
+const articles = getArticles(data);
+const N = articles.length;
+
+
+/*
+  {
+    "Articles": {
+      "articles": [1],
+    },
+    articlesById: {
+      1: {"id": 1, "Title": "A", "authors": [1, 2]}
+    },
+    authorsById: {
+      1: {"id": 1, "FirstName": "Foo", "LastName": "Bar", "Initials": "F"},
+      2: {"id": 2, "FirstName": "Zoo", "LastName": "Bar", "Initials": "Z"}
+    },
+    authorsArticles: [
+      {"authorId": 1, "articleId": 1},
+      {"authorId": 2, "articleId": 1}
+    ]
+  }
+*/
+
+console.clear();
+//console.log(getArticles(data));
+console.log(getAuthors(data));
+console.log(N);
