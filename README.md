@@ -138,3 +138,5 @@ Statements:
 1. Declaration Statement `var a = 5`
 2. Assignment Statement `b = a`
 3. Expression statement `a`
+
+All statements have **completion values** event if its `undefined`.
