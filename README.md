@@ -130,3 +130,11 @@ A service worker is run in a worker context: it therefore has *no DOM access*,
 and *runs on a different thread* to the main JavaScript that powers your app,
 so it is not blocking. It is designed to be *fully async*; as a consequence,
 APIs such as synchronous XHR and localStorage can't be used inside a service worker.
+
+#### Javascript
+
+Statements:
+
+1. Declaration Statement `var a = 5`
+2. Assignment Statement `b = a`
+3. Expression statement `a`
