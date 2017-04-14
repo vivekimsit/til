@@ -44,6 +44,23 @@ class Foo {}
 
 ```
 
+#### Null
+
+```js
+var a = null;
+
+(!a && typeof a === "object"); // true
+```
+
+null is the only primitive value that is "falsy" but that also returns "object"
+from the typeof check.
+
+#### Reference error
+
+Unlike referencing undeclared variables, there is no ReferenceError thrown if
+you try to access an object property (even on the global window object) that
+doesn't exist.
+
 #### A class body can only contain methods, but not data properties.
 
 
@@ -78,7 +95,48 @@ multiple elements and 'condenses' into a single element.
 ```
 [Babel plugin](https://babeljs.io/docs/plugins/transform-class-properties/)
 
+### Function default values
+
+```js
+function foo(opts) {
+  opts = Object.assign({
+    pow: ''
+  }, opts);
+}
+```
 
 ## Web performance
 
 [Faster Font Loading with Font Events](https://jonsuh.com/blog/font-loading-with-font-events/)
+
+
+### Reducers
+
+Using combineReducers does "call all reducers", or at least all of the slice reducers it is wrapping.
+
+[Link](https://github.com/markerikson/redux/blob/structuring-reducers-page/docs/recipes/reducers/04-UsingCombineReducers.md)
+
+### VIM
+
+#### Convert tabs to spaces in a file
+
+Select visually the area to apply the changes then,
+
+`:retab`
+
+### Service workers
+
+A service worker is run in a worker context: it therefore has *no DOM access*,
+and *runs on a different thread* to the main JavaScript that powers your app,
+so it is not blocking. It is designed to be *fully async*; as a consequence,
+APIs such as synchronous XHR and localStorage can't be used inside a service worker.
+
+#### Javascript
+
+Statements:
+
+1. Declaration Statement `var a = 5`
+2. Assignment Statement `b = a`
+3. Expression statement `a`
+
+All statements have **completion values** event if its `undefined`.
