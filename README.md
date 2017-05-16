@@ -29,6 +29,14 @@ Initialize an array of given length with default values:
 Array(3).fill(null); // [null, null, null]
 ```
 
+#### Destructuring
+
+```
+// Fail-soft destructuring with defaults
+var [a = 1] = [];
+a === 1;
+```
+
 #### Classes
 
 Unlike function declarations, class declarations are not hoisted.
