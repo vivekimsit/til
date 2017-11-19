@@ -15,3 +15,5 @@ which means if you have an error and you want to figure out,
 where did this go wrong, sometimes a line number as to where it happened
 isn’t very helpful, so you need to know actually the name of the function
 that it got called in.
+
+[More](http://wesbos.com/arrow-functions/)
