@@ -1,4 +1,4 @@
-Core ideas
+Core ideas [Ref](https://stackoverflow.com/a/6850287/867461)
 
 - It can involve several separate operations on server
 - REST is about manipulating resources which is ultimately mapped to CRUD operations
