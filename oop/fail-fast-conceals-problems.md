@@ -1,5 +1,3 @@
-#### Argument
-
 Fail safe
 ---
 
@@ -11,8 +9,6 @@ public int size(File file) {
   return file.length();
 }
 ```
-
-vs
 
 Fail fast
 ---
