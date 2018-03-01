@@ -11,3 +11,5 @@ defined, because there is no defined order.
 
 There are other specialized Collections as well, for example a `Set` which adds
 the feature that it will never contain the same element twice.
+
+[Ref](https://stackoverflow.com/q/3317381)
