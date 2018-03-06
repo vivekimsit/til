@@ -1,0 +1,26 @@
+You can, however,use the ref attribute inside a functional component
+as long as you refer to a DOM element or a class component:
+
+```js
+function CustomTextInput(props) {
+  // textInput must be declared here so the ref callback can refer to it
+  let textInput = null;
+
+  function handleClick() {
+    textInput.focus();
+  }
+
+  return (
+    <div>
+      <input
+        type="text"
+        ref={(input) => { textInput = input; }} />
+      <input
+        type="button"
+        value="Focus the text input"
+        onClick={handleClick}
+      />
+    </div>
+  );  
+}
+```
