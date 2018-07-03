@@ -13,3 +13,9 @@ $ CREATE SCHEMA <name>;
 ```
 $ SELECT schema_name FROM information_schema.schemata;
 ```
+
+#### Droping the existing schema
+
+```
+$ DROP SCHEMA <name> CASCADE;
+```
