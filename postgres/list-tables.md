@@ -1,0 +1,5 @@
+```
+$ psql <dbname>
+
+<dbname> \dt
+```
